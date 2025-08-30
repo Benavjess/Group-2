@@ -75,26 +75,28 @@ System Architecture
                                                 ↓
                                         Formatted response
 ```
- 
- 
+
 Embeddings: Slides are converted to vector form using sentence-transformers.
 Vector DB: FAISS (CPU) stores vectors for fast semantic search.
 RAG: OpenAI’s Assistants API uses search hits to generate accurate responses.
 System Prompt: Custom prompt ensures only grounded, citation-formatted answers.
  
-Core Files
-File	Purpose
-main.py	Runs the app logic using OpenAI Assistant and vector search
-upload_pdf()	Uploads PDFs and indexes them in the vector store
-ask(prompt)	Sends a user question and returns grounded answer
-.env	Stores secrets like API keys and project ID
-data/	Folder with all PDF slides
- 	 
+### Core Files
+```
+File           Purpose
+main.py        Runs the app logic using OpenAI Assistant and vector search
+upload_pdf()   Uploads PDFs and indexes them in the vector store
+ask(prompt)    Sends a user question and returns grounded answer
+.env           Stores secrets like API keys and project ID
+data/          Folder with all PDF slides
+```
  
-Example Use Cases
+### Example Use Cases
 Example 1:
+
 Input:
 "Which lecture slides mentioned Euclidean Distance?"
+
 Output:
 + Slides: Introduction to K-Nearest-Neighbors.pdf  
   Pages: 7, 12, 17  
@@ -103,9 +105,12 @@ Output:
 + Slides: Introduction to Unsupervised Learning Algorithms.pdf 
   Pages: 1, 2, 4, 9  
   Explanation: Discusses the use of squared Euclidean distance...
+
 Example 2:
+
 Input:
 "What is the difference between supervised and unsupervised learning?"
+
 Output:
 + Slides: Introduction to Decision Trees.pdf  
   Pages: 8, 10-12  
@@ -115,7 +120,7 @@ Output:
   Pages: 1-3  
   Explanation: Explains clustering and how it contrasts with labeled training...
  
-Final Notes:
+### Final Notes
 Lecture Navigator is a practical example of how Retrieval-Augmented Generation can enhance the student learning experience by:
 - Reducing time spent reviewing
 - Improving content understanding
@@ -123,14 +128,9 @@ Lecture Navigator is a practical example of how Retrieval-Augmented Generation c
 Built by TKH Fellows. Powered by OpenAI. Designed for learners.
 
 
-Contributions:
-
-Vanessa : Prompt Engineering, Github Formatting & Streamlit
-
-James: Led Team direction, StandUp #1, Readme Contributor
-
-Jessica: Readme
-
-Talgat: Readme
-
-Kahdijah: Test Prompts, Google slides & Final Standup
+## Contributions
+- Vanessa : Prompt Engineering, Github Formatting & Streamlit
+- James: Led Team direction, StandUp #1, Readme Contributor
+- Jessica: Readme
+- Talgat: Readme
+- Kahdijah: Test Prompts, Google slides & Final Standup
