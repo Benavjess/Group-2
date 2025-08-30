@@ -1,6 +1,5 @@
  
-Overview
-A Smart AI Assistant for Finding Lecture Slide Content
+## Overview: A Smart AI Assistant for Finding Lecture Slide Content 
  
 Lecture Navigator is an AI-powered assistant designed to help students in TKH to quickly find materials that was discussed across a large collection of Data Science & Machine Learning lecture slides. By asking questions like "Where did we talk about Euclidean distance?", users receive precise slide references and page numbers—saving time and improving reviewing process.
  
