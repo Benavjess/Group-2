@@ -113,3 +113,15 @@ Lecture Navigator is a practical example of how Retrieval-Augmented Generation c
 - Delivering real-time, grounded AI assistance
 Built by TKH Fellows. Powered by OpenAI. Designed for learners.
 
+
+Contributions:
+
+Vanessa : Prompt Engineering, Github Formatting & Streamlit
+
+James: Led Team direction, StandUp #1, Readme Contributor
+
+Jessica: Readme
+
+Talgat: Readme
+
+Kahdijah: Test Prompts, Google slides & Final Standup
