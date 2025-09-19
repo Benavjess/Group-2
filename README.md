@@ -6,6 +6,8 @@ Lecture Navigator is an AI-powered assistant designed to help students in TKH to
  
 This tool leverages OpenAI's Assistants API, a vector database, and retrieval-augmented generation (RAG) to enable context-aware search grounded in actual slide content. The tool has been built with hallucination control in mind and aims for citation-level precision.
 
+[![Demo video](./attachments/Demo.png)](./attachments/Demo.mp4)
+
 ```
 Table of Contents:
 · Overview
